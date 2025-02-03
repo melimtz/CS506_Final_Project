@@ -1,6 +1,8 @@
 # CS506 Final Project Proposal
 Group Members: Megha, Anderson, Melissa, Rowan, Mia
 
+2/3/2025
+
 Description of the project:
   Title vs Popularity 
   
