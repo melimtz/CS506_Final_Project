@@ -1,5 +1,5 @@
 # CS506 Final Project Proposal
-Group Members: Megha, Anderson, Melissa, Rowan, Mia
+Group Members: Megha, Anderson, Melissa, Shepherd, Mia
 
 2/3/2025
 
