@@ -4,9 +4,9 @@ Group Members: Megha, Anderson, Melissa, Shepherd, Mia
 2/3/2025
 
 Description of the project:
-  Title vs Popularity 
+  Title's Impact on Popularity: How do the words in the title impact how popular the game is among certain demographics 
   
-Clear goal(s) (e.g. Successfully predict the number of students attending lecture based on the weather report).
+Clear goal(s) 
   - Successfully predict average users demographics (if data is available) or popularity based on the words in the title 
   - Successfully predict metacritic rating based on pricing
   - Successfully predict when a game would be updated based on the rating
