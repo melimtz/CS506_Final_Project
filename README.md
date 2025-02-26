@@ -28,6 +28,7 @@ How you plan on modeling the data (e.g. clustering, fitting a linear model, deci
   
 How do you plan on visualizing the data? (e.g. interactive t-SNE plot, scatter plot of feature x vs. feature y). 
   Linear regression model. Use a scatter plot to visualize the data points and line of best fit. We will look for patterns based on the graph.
+  * From our current understanding, a regression model would be sufficient because many of the variables in our set are quantitative (amount of players, RAWG rating, etc) and we are trying to predict a numerical value. As far as visualization, it would be best to create a scatter plot to see which factors contribute most to the metrics we want to explore. However, if we see that the data does not fit well with a linear model, we would be open to a clustering approach instead (ex. Finding top-grossing games in the set and using a cluster model to determine which features are most consistent amongst some of the most successful games). A lot of our analysis would be focused on finding patterns and correlations to make predictions about the most successful games in the data set.
   
 What is your test plan? (e.g. withhold 20% of data for testing, train on data collected in October and test on data collected in November, etc.).
   Our plan is to split our data set into 80-20. 80% will be used for training and 20% will be used for testing.
