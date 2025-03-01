@@ -4,7 +4,7 @@ Group Members: Megha, Anderson, Melissa, Shepherd, Mia
 2/3/2025
 
 Description of the project:
-  Title's Impact on Popularity: How do the words in the title impact how popular the game is among certain demographics 
+  Title's Impact on Popularity of games: How do the words in the title impact how popular the game is among certain demographics 
   
 Clear goal(s) 
   - Successfully predict average users demographics (if data is available) or popularity based on the words in the title 
