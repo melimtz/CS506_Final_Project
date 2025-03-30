@@ -1,6 +1,6 @@
 import requests
 
-api_key = "01B13356A9555DBB675D8049FDA43AD1" # webAPI key, you will need to get this using your own steam account
+api_key = "" # webAPI key, you will need to get this using your own steam account
 
 game_id = "381210" #individual steam game id
 
