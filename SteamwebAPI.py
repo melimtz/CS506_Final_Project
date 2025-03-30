@@ -117,7 +117,7 @@ async def all_games(api_key, game_id):
             print("csv file was created")
 
 
-api_key = "01B13356A9555DBB675D8049FDA43AD1" # Your own api key
+api_key = "" # Your own api key
 
 
 
@@ -125,7 +125,7 @@ df_steam = pd.read_csv("set_id.csv")
 
 game_ids = df_steam["index"].tolist()
 
-short_games = game_ids[:10]
+short_games = game_ids[:100]
 
 
 
