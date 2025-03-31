@@ -52,16 +52,20 @@ The correlation coefficients between each predictor seem steady, and everything 
 
 ### Data Visualization 
 
-![alt text](https://github.com/melimtz/CS506_Final_Project/blob/main/images/correlation_matrix_v2.png "Correlation Matrix (V1)")
+![alt text](https://github.com/melimtz/CS506_Final_Project/blob/main/images/correlation_mat_v1.png "Correlation Matrix (V1)")
+
 Correlation Matrix (Version 1)
 
-![alt text](https://github.com/melimtz/CS506_Final_Project/blob/main/images/correlation_matrix_v2.png "Correlation Matrix (V2)")
+![alt text](https://github.com/melimtz/CS506_Final_Project/blob/main/images/correlation_mat_v2.png "Correlation Matrix (V2)")
+
 Correlation Matrix (Version 2)
 
 ![alt text](https://github.com/melimtz/CS506_Final_Project/blob/main/images/lr.png "Linear Regression Model")
+
 Linear Regression Model
 
 ![alt text](https://github.com/melimtz/CS506_Final_Project/blob/main/images/clustering.png "K Means Clustering Model")
+
 K Means Clustering Model
 
 ### Data Modeling
