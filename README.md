@@ -74,7 +74,7 @@ To model our data findings, we used three separate data models: a correlation ma
 
 After carefully selecting our predictors, we used the data we processed previously to create a multiple linear regression model to show the relation between our predicted ratings of games and the actual ratings of games. We chose the dependent variable to be rating and the independent variables to be playtime, achievement_count, game_series_count, and reviews_count. We then created a new dataset of predicted values based on the multiple linear regression model, which we used to compare the predicted rating to the linear regression graph of the actual rating. We additionally used k-means clustering to create a clustering model using our selected features: playtime, achievements_count, game_series_count, and reviews_count. Given the data features, we used the k-means clustering method to create 3 main clusters to show the groupings of the popularity of games. 
 
-### Prelimary Results / Findings
+### Preliminary Results / Findings
 
 Our initial data modeling gives us insight into the relationships between players' statistics and a game’s rating/popularity. We used a multiple linear regression model to predict RAWG user ratings based on variables such as playtime, achievements count, game series count, and reviews count. The model confirms that all predictors have statistical significance (p < 2e-16). It is important to note that playtime had the most significant effect on predicted rating, followed by the number of reviews. This tells us that user-led metrics are more influential to a game’s rating than its innate metrics, like the number of achievements it has.
 
