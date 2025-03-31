@@ -1,3 +1,5 @@
+[CS506 Midterm Report Video Presentation](https://www.youtube.com/watch?v=G82LpRjTCPs)
+
 ### Data Processing
 
 We started with 3 potential data sets: RAWG and Steam datasets from Kaggle and a Steam API. We began cleaning the data on the two Kaggle datasets by putting both into data frames and cleaning any NaN values by removing them. This step determined which dataset we would use because the Steam dataset ended up having NaNs scattered throughout all rows in different columns, making tracing and removing them impossible without removing every row. The RAWG cleaned up much better, as most NaNs were concentrated into one column, and removing that column significantly improved the quality of the data.
