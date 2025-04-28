@@ -1,0 +1,17 @@
+RAW_DATA_PATH = raw_data/game_info.csv
+PROCESSED_DATA = processed_data/rawg_data_cleaned.csv
+
+install:
+	pip install --upgrade pip && pip install -r requirements.txt
+
+process: $(RAW_DATA_PATH)
+	python data_cleansing_with_matrix.py $(RAW_DATA_PATH)
+
+datavisual: $(PROCESSED_DATA)
+	python MR_visualization.py $(PROCESSED_DATA)
+
+clean: 
+	rm -rf *.png 
+
+.PHONY: install process datavisual clean
+
