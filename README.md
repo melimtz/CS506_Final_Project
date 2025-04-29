@@ -36,7 +36,7 @@ After carefully selecting our predictors, we used the previously processed data 
 We also used K-means to create a clustering model using the selected features: playtime, achievement count, game series count, and review count. Given the data features, we used the K-means clustering method to create 3 main clusters, which show the groupings of game popularity. To take it a step further, we use the same approach using K-means++. We then compare the silhouette scores of K-means++ with different cluster numbers based on three distances: Euclidean, Manhattan, and cosine. Lastly, we evaluate the mean accuracy of our clusters using the K-nearest neighbor classifier on three distance metrics as well: Euclidean, Manhattan, and Minkowski. 
 
 
-### Preliminary Results / Findings
+### Results / Findings
 
 Our initial data modeling gives us insight into the relationships between players' statistics and a game’s rating/popularity. We used a multiple linear regression model to predict RAWG user ratings based on variables such as playtime, achievements count, game series count, and reviews count. The model confirms that all predictors have statistical significance (p < 2e-16). It is important to note that playtime had the most significant effect on predicted rating, followed by the number of reviews. This tells us that user-led metrics are more influential to a game’s rating than its innate metrics, like the number of achievements it has.
 The summary statistics indicated that the R-squared value was around 0.28. Based on our understanding, the R-squared value is a value that indicates how well our model predicts or “fits” the dataset and can take on values between 0 and 1, with 0 indicating that the independent variable doesn’t explain the dependent variable and 1 indicating a perfect explanation.
@@ -50,6 +50,12 @@ To do even better, we tried using K-means++, but that resulted in no change comp
 We also did KNN classification using Euclidean, Manhattan, and cosine distance, which resulted in accuracy values of 0.9972, 0.9975, and 0.9972. This reiterates that our data does well when using non-linear models and geometric distance. And because our data is so well-separated, it also explains why our K-means graph didn’t change when we used K-means++.
 Overall because of the statistical significance of each predictor, the R-squared value and the MSE value, we can be confident that our initial linear model approach failed because the data was nonlinear, not because we were missing important values. This idea is confirmed by the results of K-means clustering,  the silhouette scores, and the KNN classification accuracy.
 
+![alt text](https://github.com/melimtz/CS506_Final_Project/blob/main/images/image2.png "Summary Statistics")
 
+Summary Statistics
+
+![alt text](https://github.com/melimtz/CS506_Final_Project/blob/main/images/image3.png "Silhouette Scores and KNN Accuracy")
+
+Silhouette Scores and KNN Accuracy
 
 Group Members: Megha, Anderson, Melissa, Shepherd, Mia
