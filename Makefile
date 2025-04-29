@@ -9,9 +9,12 @@ process: $(RAW_DATA_PATH)
 
 datavisual: $(PROCESSED_DATA)
 	python MR_visualization.py $(PROCESSED_DATA)
+#without the argument, it will use the default path
+test:
+	python3 MR_visualization.py 
 
 clean: 
 	rm -rf *.png 
 
-.PHONY: install process datavisual clean
+.PHONY: install process datavisual test clean
 
