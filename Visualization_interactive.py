@@ -15,7 +15,7 @@ import plotly.express as px
 
 
 #processed RAWG data
-data = pd.read_csv(r"C:\Users\smart\OneDrive\Documents\CS506\CS506_Final_Project\rawg_data_cleaned.csv")
+data = pd.read_csv(r"rawg_data_cleaned.csv")
 #multiple linear reggression model
 X = data[['playtime', 'achievements_count', 'game_series_count','reviews_count']]
 y = data['rating']
