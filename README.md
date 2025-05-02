@@ -57,7 +57,7 @@ Summary Statistics
 
 ![alt text](https://github.com/melimtz/CS506_Final_Project/blob/main/images/image3.png "Silhouette Scores and KNN Accuracy")
 
-## What we learned
+## Conclusion
 
 From our analyses, we learned that our predictors- playtime, number of achievements, number of games in a series, and number of reviews- do not have a linear relationship in directly predicting a game's rating. Still, they influence the category that a game may fall under. Our K-means model produced three categories of games: low-rated and unpopular, average engagement, and hits. Low-rated games had a dense cluster, indicating that they all shared common characteristics that caused their low ratings. The largest category was that of average games- those which are not highly acclaimed yet still well-liked. Because the hit cluster was so spread out, we can infer that a game becoming a hit is not entirely based on the predictors and may be due to luck.
 
