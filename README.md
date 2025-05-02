@@ -14,6 +14,7 @@ We decided to filter the data further by selecting a few columns to build our mo
 
 Once we had the predictors, we needed to determine the relationship between the predictors and the response variable. We used the cleaned data to build a linear model in R. The summary statistics indicated that the relationship between the predictors and the response variable was not linear, as the R-squared value was around 0.28, meaning that the predictors do not have a significant linear relationship with the response variable. This finding told us that to accurately model the relationship between the predictors and game ratings, we would have to look into non-linear algorithms.
 
+- [Code referenced](https://github.com/melimtz/CS506_Final_Project/tree/main/data_processing)
 
 
 ### Data Visualization 
@@ -41,6 +42,8 @@ Our data modeling focuses on predicting and grouping the cleaned RAWG data using
 After carefully selecting our predictors, we used the previously processed data to create a multiple linear regression model that shows the relationship between our predicted game ratings and the actual ratings. We chose the dependent variable to be the rating, and the independent variables were playtime, achievement count, game series count, and review count. We then created a new dataset of predicted values based on the multiple linear regression model, which we used to compare the predicted rating to the linear regression graph of the actual rating. 
 
 We also used K-means to create a clustering model using the selected features: playtime, achievement count, game series count, and review count. Given the data features, we used the K-means clustering method to create 3 main clusters, which show the groupings of game popularity. To take it a step further, we use the same approach using K-means++. We then compare the silhouette scores of K-means++ with different cluster numbers based on three distances: Euclidean, Manhattan, and cosine. Lastly, we evaluate the mean accuracy of our clusters using the K-nearest neighbor classifier on three distance metrics as well: Euclidean, Manhattan, and Minkowski. 
+
+- [Code referenced](https://github.com/melimtz/CS506_Final_Project/tree/main/data_modeling)
 
 
 ### Results / Findings
